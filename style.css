@@ -1,0 +1,41 @@
+
+*{
+    background-color: aliceblue;
+}
+.heading{
+        padding-top: 3%;
+        color: rgb(108, 167, 218);
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: xx-large;
+}
+.content{
+    display: flex;
+    box-shadow: 5px 5px 5px 5px rgb(238, 240, 241);
+}
+.container{
+    border-top:1px solid gainsboro;
+    color:rgb(111, 176, 233);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    flex-wrap: wrap;
+    font-size: 10vh;
+    box-shadow: 70%;
+}
+.heading:hover{
+    color:  rgb(24, 83, 112);
+    box-shadow: 5px 5px 5px 5px rgb(238, 240, 241);
+}
+#hours:hover{
+    color: rgb(24, 83, 112);
+}
+#minutes:hover{
+    color: rgb(24, 83, 112);
+}
+#seconds:hover{
+    color: rgb(24, 83, 112);
+}
+#amPm:hover{
+    color: rgb(24, 83, 112);
+}
